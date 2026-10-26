@@ -4,8 +4,8 @@ import datetime
 
 
 for i in range(10):
-    if (datetime.datetime.now().hour >= 18):
-        break
+    # if (datetime.datetime.now().hour >= 18 or datetime.datetime.now().hour <= 9):
+    #     break
 
    
     with open("cr.py")as file:
